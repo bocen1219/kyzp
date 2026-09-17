@@ -22,13 +22,13 @@ import java.util.List;
 public class KyzpDataPermissionAutoConfiguration {
 
     @Bean
-    public DataPermissionRuleFactory dataPermissionRuleFactory(List<DataPermissionRule> rules) {
+    public static DataPermissionRuleFactory dataPermissionRuleFactory(List<DataPermissionRule> rules) {
         return new DataPermissionRuleFactoryImpl(rules);
     }
 
     @Bean
-    public DataPermissionRuleHandler dataPermissionRuleHandler(MybatisPlusInterceptor interceptor,
-                                                               DataPermissionRuleFactory ruleFactory) {
+    public static DataPermissionRuleHandler dataPermissionRuleHandler(MybatisPlusInterceptor interceptor,
+                                                                      DataPermissionRuleFactory ruleFactory) {
         // 创建 DataPermissionInterceptor 拦截器
         DataPermissionRuleHandler handler = new DataPermissionRuleHandler(ruleFactory);
         DataPermissionInterceptor inner = new DataPermissionInterceptor(handler);
@@ -39,7 +39,7 @@ public class KyzpDataPermissionAutoConfiguration {
     }
 
     @Bean
-    public DataPermissionAnnotationAdvisor dataPermissionAnnotationAdvisor() {
+    public static DataPermissionAnnotationAdvisor dataPermissionAnnotationAdvisor() {
         return new DataPermissionAnnotationAdvisor();
     }
 
