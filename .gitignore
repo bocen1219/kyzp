@@ -57,3 +57,6 @@ application-my.yaml
 ### 本地工具目录（CodeGraph 索引、VS Code 配置） ###
 .codegraph/
 .vscode/
+/yarn.lock
+/package-lock.json
+node_modules/.yarn-integrity

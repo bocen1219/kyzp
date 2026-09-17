@@ -17,7 +17,7 @@ import org.springframework.core.task.SimpleAsyncTaskExecutor;
 public class KyzpAsyncAutoConfiguration {
 
     @Bean
-    public BeanPostProcessor threadPoolTaskExecutorBeanPostProcessor() {
+    public static BeanPostProcessor threadPoolTaskExecutorBeanPostProcessor() {
         return new BeanPostProcessor() {
 
             @Override
