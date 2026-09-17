@@ -53,3 +53,7 @@ application-my.yaml
 /kyzp-ui-app/unpackage/
 .DS_Store
 **/.DS_Store
+
+### 本地工具目录（CodeGraph 索引、VS Code 配置） ###
+.codegraph/
+.vscode/
