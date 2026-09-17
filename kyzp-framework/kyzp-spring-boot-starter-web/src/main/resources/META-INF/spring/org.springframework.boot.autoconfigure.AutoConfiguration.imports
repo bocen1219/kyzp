@@ -1,0 +1,7 @@
+com.xiaohuo.kyzp.framework.apilog.config.KyzpApiLogAutoConfiguration
+com.xiaohuo.kyzp.framework.jackson.config.KyzpJacksonAutoConfiguration
+com.xiaohuo.kyzp.framework.swagger.config.KyzpSwaggerAutoConfiguration
+com.xiaohuo.kyzp.framework.web.config.KyzpWebAutoConfiguration
+com.xiaohuo.kyzp.framework.xss.config.KyzpXssAutoConfiguration
+com.xiaohuo.kyzp.framework.banner.config.KyzpBannerAutoConfiguration
+com.xiaohuo.kyzp.framework.encrypt.config.KyzpApiEncryptAutoConfiguration

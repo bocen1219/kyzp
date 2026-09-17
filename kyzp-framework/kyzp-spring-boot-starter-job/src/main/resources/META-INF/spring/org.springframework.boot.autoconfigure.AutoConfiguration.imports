@@ -1,0 +1,2 @@
+com.xiaohuo.kyzp.framework.quartz.config.KyzpQuartzAutoConfiguration
+com.xiaohuo.kyzp.framework.quartz.config.KyzpAsyncAutoConfiguration

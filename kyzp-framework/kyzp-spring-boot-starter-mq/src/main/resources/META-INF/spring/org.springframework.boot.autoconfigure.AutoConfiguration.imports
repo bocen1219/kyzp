@@ -1,0 +1,3 @@
+com.xiaohuo.kyzp.framework.mq.redis.config.KyzpRedisMQProducerAutoConfiguration
+com.xiaohuo.kyzp.framework.mq.redis.config.KyzpRedisMQConsumerAutoConfiguration
+com.xiaohuo.kyzp.framework.mq.rabbitmq.config.KyzpRabbitMQAutoConfiguration

@@ -1,0 +1,3 @@
+com.xiaohuo.kyzp.framework.security.config.KyzpSecurityAutoConfiguration
+com.xiaohuo.kyzp.framework.security.config.KyzpWebSecurityConfigurerAdapter
+com.xiaohuo.kyzp.framework.operatelog.config.KyzpOperateLogConfiguration

@@ -1,0 +1,2 @@
+com.xiaohuo.kyzp.framework.tracer.config.KyzpTracerAutoConfiguration
+com.xiaohuo.kyzp.framework.tracer.config.KyzpMetricsAutoConfiguration

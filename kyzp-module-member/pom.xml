@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.xiaohuo</groupId>
+        <artifactId>kyzp</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>kyzp-module-member</artifactId>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>
+        member 模块，只保留会员的登录相关能力（手机号登录、微信小程序登录与绑定、会员列表）。
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.xiaohuo</groupId>
+            <artifactId>kyzp-module-system</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <!-- 业务组件 -->
+        <dependency>
+            <groupId>com.xiaohuo</groupId>
+            <artifactId>kyzp-spring-boot-starter-biz-tenant</artifactId>
+        </dependency>
+
+        <!-- Web 相关 -->
+        <dependency>
+            <groupId>com.xiaohuo</groupId>
+            <artifactId>kyzp-spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
+
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.xiaohuo</groupId>
+            <artifactId>kyzp-spring-boot-starter-mybatis</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

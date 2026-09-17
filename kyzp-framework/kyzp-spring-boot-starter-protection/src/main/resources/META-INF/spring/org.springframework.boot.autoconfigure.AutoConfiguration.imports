@@ -1,0 +1,4 @@
+com.xiaohuo.kyzp.framework.idempotent.config.KyzpIdempotentConfiguration
+com.xiaohuo.kyzp.framework.lock4j.config.KyzpLock4jConfiguration
+com.xiaohuo.kyzp.framework.ratelimiter.config.KyzpRateLimiterConfiguration
+com.xiaohuo.kyzp.framework.signature.config.KyzpApiSignatureAutoConfiguration

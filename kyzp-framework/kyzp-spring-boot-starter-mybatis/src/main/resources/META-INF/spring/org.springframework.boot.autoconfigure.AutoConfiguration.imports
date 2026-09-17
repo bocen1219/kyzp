@@ -1,0 +1,3 @@
+com.xiaohuo.kyzp.framework.datasource.config.KyzpDataSourceAutoConfiguration
+com.xiaohuo.kyzp.framework.mybatis.config.KyzpMybatisAutoConfiguration
+com.xiaohuo.kyzp.framework.translate.config.KyzpTranslateAutoConfiguration
